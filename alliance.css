@@ -1,0 +1,2627 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    width: 88%;
+    background-color: #3391ff;
+    border-radius: 35px;
+    margin-top: 1rem;
+    z-index: 1;
+    display: flex;
+}
+
+.bars a {
+    color: white;
+}
+
+.bars a :hover {
+    color: rgb(83, 195, 255);
+}
+
+#brand {
+    display: flex;
+    height: 4rem;
+    align-items: center;
+    right: -1rem;
+}
+
+
+.home,
+#bars {
+    display: none;
+}
+
+body {
+    background-color: rgb(30, 32, 33);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Tajawal', sans-serif;
+}
+
+footer::after {
+    content: '';
+    position: absolute;
+    height: 100px;
+    width: 100%;
+}
+
+.kollshoglgera {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    background-color: rgb(23, 25, 26);
+    border-radius: 90px;
+    width: 95%;
+    height: 550rem;
+    top: 10rem;
+    margin-top: 85rem;
+    z-index: -1;
+    border: 1px solid #3391ff;
+}
+
+.geraandprog {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.gera {
+    color: #3391ff;
+}
+
+.prog {
+    color: #3391ff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 95%;
+    position: absolute;
+    margin: auto;
+    top: 10rem;
+    background-color: white;
+    background-color: rgb(23, 25, 26);
+    border-radius: 90px;
+    border: 1px solid #3391ff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 2rem;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.li {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+ul li {
+    display: inline-flex;
+    justify-content: center;
+    margin-left: 2rem;
+}
+
+ul li a {
+    color: white;
+}
+
+ul li :hover {
+    color: rgb(0, 112, 172);
+    cursor: pointer;
+}
+
+#btn {
+    position: absolute;
+    border-radius: 20px;
+    height: 40px;
+    width: 110px;
+    left: 3rem;
+    background-color: transparent;
+    color: white;
+    font-family: 'Tajawal', sans-serif;
+    border-color: white;
+    border: 1px solid white;
+}
+
+#btn:hover {
+    cursor: pointer;
+    color: rgb(0, 166, 255);
+    border-color: rgb(0, 166, 255);
+    background-color: white;
+}
+
+/*  */
+
+.brand {
+    position: absolute;
+    color: white;
+    right: 6rem;
+}
+
+.brand:hover{
+    cursor:context-menu;
+}
+
+.text {
+    font-size: 40px;
+}
+
+.text:hover{
+    cursor:context-menu ;
+}
+
+.contentafter .text #kalam {
+    letter-spacing: 1px;
+}
+
+.container .text {
+    justify-content: center;
+    width: 100%;
+}
+
+#alliance {
+    color: #3391ff;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.kollkalam {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: white;
+}
+
+.mawaqe3 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: white;
+}
+
+.mawaqe3 span {
+    margin: 0 2rem;
+}
+
+#cats {
+    position: relative;
+    margin-top: 0.7rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.cats {
+    margin-right: 1rem;
+    border-radius: 20px;
+    height: 40px;
+    width: 90px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgb(122, 113, 100);
+    font-family: 'Tajawal', sans-serif;
+}
+
+.cats:hover {
+    background-color: rgb(77, 77, 77);
+    color: white;
+    border: 1px solid rgb(122, 113, 100);
+    cursor: pointer;
+}
+
+.dogs {
+    border-radius: 20px;
+    height: 40px;
+    width: 90px;
+    background-color: rgb(0, 166, 255);
+    color: white;
+    border: 1px solid rgb(0, 166, 255);
+    font-family: 'Tajawal', sans-serif;
+}
+
+.dogs:hover {
+    background-color: transparent;
+    color: white;
+    background-color: rgb(0, 100, 154);
+    border: 1px solid rgb(0, 100, 154);
+    cursor: pointer;
+}
+
+.koll {
+    position: absolute;
+    top: 75rem;
+    color: white;
+    font-size: 2em;
+}
+
+.koll:hover{
+    cursor: context-menu;
+}
+
+#gera {
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 166, 255);
+    margin-top: 1rem;
+}
+
+.fasla2 {
+    margin: 0 1rem;
+    color: aliceblue;
+}
+
+/* af */
+
+.proaf {
+    display: flex;
+    color: white;
+    position: absolute;
+    align-items: center;
+    height: 30px;
+    width: auto;
+}
+
+.sortaf {
+    height: 50px;
+    width: 50px;
+    margin-left: 1rem;
+}
+
+.contentafter {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 90rem;
+    height: auto;
+    width: 90%;
+}
+
+video {
+    height: 480px;
+    width: 853.33px;
+    margin: auto;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.vediosaf {
+    margin-top: 2rem;
+    display: block;
+    justify-content: center;
+    position: relative;
+    top: 4rem;
+}
+
+.af {
+    color: #4d36ce;
+}
+
+.af:hover{
+    cursor: context-menu;
+}
+
+.spanaf {
+    color: #4d36ce;
+}
+
+.ph {
+    color: #3391ff;
+}
+
+.ph:hover{
+    cursor: context-menu;
+}
+
+.spanph {
+    color: #3391ff;
+}
+
+.spanai,
+.ai {
+    color: #a77200;
+}
+
+.ai:hover{
+    cursor: context-menu;
+}
+
+/* ps */
+
+.sortpho {
+    height: 50px;
+    width: 50px;
+    margin-left: 1rem;
+}
+
+.photoshop {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 170rem;
+    height: auto;
+    width: 90%;
+}
+
+.prophotoshop {
+    display: inline-flex;
+    color: white;
+    position: absolute;
+    align-items: center;
+}
+
+.picphoto {
+    display: block;
+    justify-content: center;
+    position: relative;
+    top: 4rem;
+    margin-top: 2rem;
+}
+
+.picphoto img {
+    height: 480px;
+    width: 853.33px;
+    border-radius: 30px;
+    margin: auto;
+}
+
+/* Ai */
+
+.illistretor {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 253rem;
+    height: auto;
+    width: 90%;
+}
+
+.proillistretor {
+    display: inline-flex;
+    color: white;
+    position: absolute;
+    align-items: center;
+}
+
+.picphotoai {
+    display: block;
+    justify-content: center;
+    position: relative;
+    top: 4rem;
+    margin-top: 2rem;
+}
+
+.picphotoai img {
+    height: 480px;
+    width: 853.33px;
+    border-radius: 30px;
+    margin: auto;
+}
+
+/* programming */
+
+.barmga {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sorthtml {
+    position: relative;
+    height: 250px;
+    width: auto;
+    margin-bottom: 2rem;
+}
+
+#web {
+    color: #3391ff;
+}
+
+.programming {
+    display: inline-block;
+    justify-content: center;
+    position: absolute;
+    top: 340rem;
+    height: auto;
+    width: 95%;
+    margin: auto;
+    font-size: 2rem;
+    color: white;
+}
+
+.web {
+    position: relative;
+    top: 4rem;
+    width: 100%;
+}
+
+.web:hover{
+    cursor: context-menu;
+}
+
+#programming {
+    color: #3391ff;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#programming:hover{
+    cursor: context-menu;
+}
+
+.titlehtml {
+    position: absolute;
+    color: white;
+    top: 330rem;
+    font-size: 1.54rem;
+    display: block;
+    justify-content: center;
+    height: 9rem;
+}
+
+.logohtml {
+    font-size: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 40%;
+}
+
+.tagscolor {
+    color: #4d36ce;
+}
+
+.html {
+    color: #3391ff;
+}
+
+.screenhtml {
+    display: flex;
+    justify-content: center;
+}
+
+.code {
+    position: relative;
+    width: 107rem;
+    height: auto;
+    border-radius: 50px;
+}
+
+.css {
+    display: flex;
+    justify-content: center;
+}
+
+.htmlcss {
+    margin-top: 4rem;
+}
+
+.css img {
+    width: 107rem;
+    height: auto;
+    border-radius: 50px;
+}
+
+.tagcss1,
+.tagcss2 {
+    color: #f8c34f;
+}
+
+.spanhtml {
+    color: #3391ff;
+}
+
+.spancss {
+    color: #f8c34f;
+}
+
+.javascript {
+    margin-top: 5rem;
+    display: block;
+    justify-content: center;
+}
+
+.lgoshtmlcss {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.lgoshtmlcss #sorthtml2 {
+    height: 250px;
+    width: auto;
+}
+
+.lgoshtmlcss #sortcss {
+    height: 250px;
+    width: auto;
+}
+
+#tagshtml {
+    display: flex;
+    align-items: center;
+    font-size: 10rem;
+}
+
+.tagshtml2 {
+    display: flex;
+    align-items: center;
+}
+
+#tagscss {
+    display: flex;
+    font-size: 10rem;
+}
+
+#tagshtml p {
+    color: #4d36ce;
+}
+
+.fasla {
+    font-size: 8rem;
+    color: #3391ff;
+    position: relative;
+    top: 1rem;
+    margin: 0 1.5rem;
+}
+
+.lgoshtmlcss {
+    margin-bottom: 3rem;
+}
+
+.tagcss1,
+.tagcss2 {
+    position: relative;
+}
+
+.tagcss2 {
+    left: 3rem;
+}
+
+.tagcss1 {
+    right: 3rem;
+}
+
+/* js */
+.javascript {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    height: auto;
+    width: 100%;
+}
+
+#javascript img .sortjs {
+    width: 1712px;
+    height: auto;
+}
+
+#javascript {
+    position: absolute;
+    top: 18rem;
+}
+
+.logojs {
+    display: block;
+    color: white;
+    position: absolute;
+    align-items: center;
+}
+
+
+.mashro4 {
+    margin: 0 0 3rem 0;
+    height: 250px;
+    width: 250px;
+}
+
+.sortjs {
+    width: 1712px;
+    height: auto;
+    margin-bottom: 4rem;
+    border-radius: 50px;
+}
+
+
+#sortjs2 {
+    display: inline-block;
+    justify-content: center;
+    position: relative;
+    top: 90rem;
+    width: 650px;
+    height: auto;
+}
+
+.headjs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.headjs:hover{
+    cursor: context-menu;
+}
+
+.js {
+    color: #f8c34f;
+}
+
+.code2 {
+    color: #3391ff;
+}
+
+.mashro3 {
+    width: 1712px;
+    height: auto;
+}
+
+footer {
+    position: absolute;
+    top: 645rem;
+    width: 100%;
+    height: 16.5rem;
+    background-color: rgb(20, 20, 20);
+}
+
+footer div {
+    position: relative;
+    top: 1rem;
+}
+
+.alliancefooter {
+    display: flex;
+    justify-content: center;
+    color: #3391ff;
+    font-size: 1.5rem;
+}
+
+.alliancefooter:hover{
+    cursor: context-menu;
+}
+
+.m3na {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.m3na:hover{
+    cursor:context-menu;
+}
+
+#m3na {
+    color: white;
+}
+
+.sosial h3 {
+    color: white;
+}
+
+.sosial {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.sosial a {
+    margin: 0 .5rem;
+    margin-left: 15px;
+    color: white;
+    position: relative;
+    right: -10px;
+}
+
+.sosial a:hover {
+    color: #3391ff;
+}
+
+footer::after {
+    width: 100%;
+    height: 500%;
+    position: absolute;
+    background-color: #2767b1;
+    clip-path: circle(60% at bottom);
+    z-index: -1;
+    bottom: 2rem;
+}
+
+.iconup {
+    position: fixed;
+    background-color: #3391ff;
+    height: 3rem;
+    width: 3rem;
+    top: 90%;
+    right: -10rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.iconup.show {
+    right: 1rem;
+}
+
+.iconup:hover {
+    background-color: #61aafd;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+    background-color: white;
+}
+
+::-webkit-scrollbar-track{
+    background-color: white;
+    box-shadow: 0 0 10px 10px #ddd;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #61aafdc7;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #61aafd;
+} 
+
+.logoalliance{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    margin-top: 1rem;
+}
+
+#logoalliance{
+    height: 6rem;
+    width: auto;
+}
+
+.imgbarndheader{
+    width: 4rem;
+    height: auto;
+    position: absolute;
+    right: 1rem;
+}
+
+/*response*/
+
+@media(max-width:1880px) {
+
+    .kollshoglgera {
+        height: 490rem;
+    }
+
+    video {
+        height: 400px;
+        width: 711.11px;
+    }
+
+    .picphoto img,
+    .picphotoai img {
+        height: 400px;
+        width: 711.11px;
+    }
+
+    .photoshop {
+        top: 160rem;
+    }
+
+    .illistretor {
+        top: 230rem;
+    }
+
+    .titlehtml {
+        top:
+            295rem;
+    }
+
+    .programming {
+        top: 305rem;
+    }
+
+    .code,
+    .css img,
+    .sortjs {
+        width: 1424px;
+        height: auto;
+    }
+
+    #sortjs2 {
+        top: 80rem;
+    }
+
+    footer {
+        top: 580rem;
+    }
+
+}
+
+@media(max-width:1592px) {
+    .kollshoglgera {
+        height: 425rem;
+    }
+
+    video {
+        height: 320px;
+        width: 568.88px;
+    }
+
+    .picphoto img,
+    .picphotoai img {
+        height: 320px;
+        width: 568.88px;
+    }
+
+    .photoshop {
+        top: 145rem;
+    }
+
+    .illistretor {
+        top: 200rem;
+    }
+
+    .titlehtml {
+        top:
+            260rem;
+    }
+
+    .programming {
+        top: 270rem;
+    }
+
+    .code,
+    .css img,
+    .sortjs {
+        position: relative;
+        width: 71rem;
+        height: auto;
+    }
+
+    #sortjs2 {
+        top: 70rem;
+    }
+
+    footer {
+        top: 515rem;
+    }
+
+
+    .kollshoglgera {
+        height: 335rem;
+    }
+
+    .container {
+        height: 70%;
+    }
+
+
+    #kalam {
+        font-size: 3rem;
+    }
+
+    nav {
+        font-size: 1.5rem;
+    }
+
+    video {
+        height: 240px;
+        width: 426.66px;
+    }
+
+    .picphoto img,
+    .picphotoai img {
+        height: 240px;
+        width: 426.66px;
+    }
+
+    .photoshop {
+        top: 135rem;
+    }
+
+    .illistretor {
+        top: 180rem;
+    }
+
+    .titlehtml {
+        top:
+            225rem;
+    }
+
+    .programming {
+        top: 235rem;
+    }
+
+    .code,
+    .css img,
+    .sortjs {
+        position: relative;
+        width: 53.5rem;
+        height: auto;
+    }
+
+    .lgoshtmlcss #sorthtml2 {
+        height: 200px;
+        width: auto;
+    }
+
+    .lgoshtmlcss #sortcss {
+        height: 200px;
+        width: auto;
+    }
+
+    .sorthtml {
+        height: 200px;
+        width: auto;
+    }
+
+    .tagscolor {
+        font-size: 10rem;
+    }
+
+    .mashro4 {
+        height: 200px;
+        width: 200px;
+    }
+
+    #sortjs2 {
+        top: 55rem;
+    }
+
+    .sortjsdiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .sortjsdiv img {
+        border-radius: 50px;
+    }
+
+    #sortjs {
+        width: 400px;
+        height: auto;
+    }
+
+    footer {
+        top: 423rem;
+    }
+
+    footer::after {
+        clip-path: circle(50% at bottom);
+    }
+
+}
+
+
+@media(max-width:954px) {
+    .kollshoglgera {
+        height: 540rem;
+    }
+
+    .text {
+        margin: 0;
+    }
+
+    #alliance {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .kollkalam {
+        width: 100%;
+    }
+
+    .mawaqe3 {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .geraandprog {
+        justify-content: center;
+    }
+
+    video {
+        display: block;
+        margin: 1rem 0;
+        height: 400px;
+        width: 711.11px;
+    }
+
+    .picphoto img,
+    .picphotoai img {
+        display: block;
+        margin: 1rem 0;
+        height: 400px;
+        width: 711.11px;
+    }
+
+    .photoshop {
+        top: 210rem;
+    }
+
+    .illistretor {
+        top: 330rem;
+    }
+
+    .titlehtml {
+        top: 445rem;
+    }
+
+    .programming {
+        top: 455rem;
+    }
+
+    .code {
+        width: 711.11px;
+        height: auto;
+    }
+
+    /*  */
+    .lgoshtmlcss #sorthtml2 {
+        width: auto;
+        height: 150px;
+    }
+
+    .lgoshtmlcss #sortcss {
+        height: 150px;
+        width: auto;
+    }
+
+    .tagcss1,
+    .tagcss2,
+    .taghtml3 {
+        font-size: 6rem;
+    }
+
+    .css img,
+    .sortjs {
+        width: 711.11px;
+    }
+
+    #sortjs2 {
+        top: 50rem;
+    }
+
+    footer {
+        top: 625rem;
+    }
+
+    footer::after {
+        clip-path: circle(55% at bottom);
+    }
+
+}
+
+@media(max-width:792px) {
+    .kollshoglgera {
+        height: 452rem;
+    }
+
+    .container {
+        border-radius: 50px;
+    }
+
+    video {
+        height: 320px;
+        width: 711.11px;
+    }
+
+    .picphoto img,
+    .picphotoai img {
+        height: 320px;
+        width: 569.11px;
+    }
+
+    .photoshop {
+        top: 185rem;
+    }
+
+    .illistretor {
+        top: 280rem;
+    }
+
+    .titlehtml {
+        top: 385rem;
+    }
+
+    .programming {
+        top: 395rem;
+    }
+
+    .code {
+        width: 569.11px;
+    }
+
+    .css img,
+    .sortjs {
+        width: 569.11px;
+    }
+
+    .mashro4 {
+        width: 150px;
+        height: 150px;
+    }
+
+    #javascript {
+        top: 13rem;
+    }
+
+    #sortjs2 {
+        top: 40rem;
+    }
+
+    #sortjs {
+        width: 300px;
+        height: auto;
+    }
+
+    footer {
+        top: 540rem;
+    }
+
+    footer::after {
+        clip-path: circle(50% at bottom);
+    }
+}
+
+@media(max-width:680px) {
+    .lgoshtmlcss #sorthtml2 {
+        width: auto;
+        height: 100px;
+    }
+
+    .lgoshtmlcss #sortcss {
+        height: 100px;
+        width: auto;
+    }
+
+    .tagcss1,
+    .tagcss2,
+    .taghtml3 {
+        font-size: 4rem;
+    }
+
+    footer div h1 {
+        font-size: 2.5rem;
+    }
+
+    footer a {
+        font-size: 1.5rem;
+    }
+
+    .fasla {
+        font-size: 5rem;
+        top: 0.5rem;
+    }
+
+}
+
+@media(max-width:748px) {
+
+    video {
+        height: 320px;
+        width: 568.88px;
+    }
+
+    .picphoto img,
+    .picphotoai img {
+        height: 320px;
+        width: 569.11px;
+    }
+
+    .titlehtml {
+        top: 385rem;
+    }
+
+    .programming {
+        top: 395rem;
+    }
+
+    .code {
+        position: relative;
+        width: 569.11px;
+        height: auto;
+    }
+
+    .sorthtml {
+        width: 150px;
+        height: auto;
+    }
+
+    .logohtml {
+        font-size: 10rem;
+    }
+
+    .css img,
+    .sortjs {
+        width: 569.11px;
+    }
+
+    .mashro4 {
+        width: 150px;
+        height: 150px;
+    }
+
+    #javascript {
+        top: 13rem;
+    }
+
+    #sortjs2 {
+        top: 40rem;
+    }
+
+    #sortjs {
+        width: 300px;
+        height: auto;
+    }
+
+}
+
+
+@media(max-width:1122px) {
+
+    header {
+        position: absolute;
+    }
+
+    .brand {
+        right: 0rem;
+    }
+
+    .brand {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    .container {
+        height: 70%;
+    }
+
+    #btn {
+        display: none;
+    }
+
+    .imgbarndheader{
+        display: none;
+    }
+}
+
+@media(max-width:708px) {
+
+
+    .code,
+    .css img,
+    .sortjs,
+    #sortjs {
+        border-radius: 30px;
+    }
+
+    .kollshoglgera {
+        height: 420rem;
+        border-radius: 50px;
+    }
+
+    ul li {
+        margin-bottom: 2rem;
+        display: block;
+    }
+
+    .li {
+        display: none;
+    }
+
+    .li.active {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        height: 20rem;
+        position: relative;
+        margin: auto;
+        top: 10rem;
+        background-color: white;
+        background-color: rgb(32, 34, 37);
+        border-radius: 50px;
+        border: 1px solid #3391ff;
+        box-shadow: 4px 4px 50px 7px black;
+        top: -1rem;
+        left: -8rem;
+        transition: 0.1s;
+    }
+
+    #bars.active {
+        background-color: rgb(32, 34, 37);
+        height: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 3.5rem;
+        border-radius: 20px 20px 0 0;
+        border: 1px solid #3391ff;
+        z-index: 1;
+        border-bottom: 0;
+
+    }
+
+    header {
+        height: 4rem;
+        position: fixed;
+    }
+
+    nav {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #brand {
+        position: relative;
+        width: 100%;
+        margin: 0;
+        width: 120%;
+    }
+
+    .brand {
+        position: absolute;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+    }
+
+    .home {
+        position: relative;
+        height: 4rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .home,
+    #bars {
+        display: flex;
+    }
+
+    .bars {
+        display: flex;
+        width: 80%;
+        align-items: center;
+        margin-top: 0.3rem;
+    }
+
+    #bars {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        left: 2rem;
+        width: 3.5rem;
+        justify-content: center;
+        margin-right: 2rem;
+        height: 4rem;
+    }
+
+    video {
+        height: 300px;
+        width: auto;
+        margin: 0.5rem 0;
+    }
+
+    .picphoto img,
+    .picphotoai img {
+        height: 300px;
+        width: 533.33px;
+        margin: 0.5rem 0;
+    }
+
+    a .items {
+        font-size: 0.5rem;
+        display: inline-flex;
+        justify-content: center;
+        margin-left: 0rem;
+        width: 80%;
+    }
+
+    .contentafter {
+        top: 88rem;
+    }
+
+    .photoshop {
+        top: 180rem;
+    }
+
+    .illistretor {
+        top: 273rem;
+    }
+
+    .titlehtml {
+        top: 362rem;
+    }
+
+    .programming {
+        top: 370rem;
+    }
+
+    .code {
+        width: 533.33px;
+    }
+
+    .css img,
+    .sortjs {
+        width: 533.33px;
+    }
+
+    .lgoshtmlcss #sorthtml2 {
+        width: auto;
+        height: 100px;
+    }
+
+    .lgoshtmlcss #sortcss {
+        height: 100px;
+        width: auto;
+    }
+
+    .tagcss1,
+    .tagcss2,
+    .taghtml3 {
+        font-size: 4rem;
+    }
+
+    #sorthtml2 {
+        margin: 0;
+    }
+
+    .tagcss2 {
+        left: 2.5rem;
+    }
+
+    .tagcss1 {
+        right: 2.5rem;
+    }
+
+    footer {
+        top: 510rem;
+    }
+
+    footer::after {
+        clip-path: circle(50% at bottom);
+    }
+
+}
+
+@media (max-width:1060px) {
+    .text {
+        font-size: 1.5rem;
+        right: 2rem;
+    }
+}
+
+@media (max-width:564px) {
+
+    .kollshoglgera {
+        height: 365rem;
+        border-radius: 50px;
+        margin-top: 77rem;
+    }
+
+    .koll {
+        top: 65rem;
+    }
+
+    video {
+        height: 250px;
+        width: auto;
+        margin: 0.5rem 0;
+    }
+
+    .picphoto img,
+    .picphotoai img {
+        height: 250px;
+        width: 444.44px;
+        margin: 0.5rem 0;
+    }
+
+    .contentafter {
+        top: 80rem;
+    }
+
+    .photoshop {
+        top: 160rem;
+    }
+
+    .illistretor {
+        top: 240rem;
+    }
+
+    .titlehtml {
+        top: 315rem;
+    }
+
+    .programming {
+        top: 325rem;
+    }
+
+    .code {
+        width: 444.44px;
+    }
+
+    .css img,
+    .sortjs {
+        width: 444.44px;
+    }
+
+    #sortjs {
+        width: 200px;
+        height: auto;
+    }
+
+    .mashro4 {
+        width: 100px;
+        height: 100px;
+    }
+
+    #javascript {
+        top: 9rem;
+    }
+
+    #sortjs2 {
+        top: 31rem;
+    }
+
+    footer {
+        top: 445rem;
+        height: 13rem;
+    }
+
+    footer::after {
+        clip-path: circle(50% at bottom);
+    }
+
+    footer div h1 {
+        font-size: 2rem;
+    }
+
+    footer div h3 {
+        font-size: 1.5rem;
+    }
+
+    footer a {
+        font-size: 1.2rem;
+    }
+
+}
+
+@media (max-width:520px) {
+    ul li {
+        font-size: 1.2rem;
+    }
+
+    .li.active {
+        left: -6rem;
+    }
+
+}
+
+@media (max-width:474px) {
+
+    .kollshoglgera {
+        height: 295rem;
+        border-radius: 30px;
+        margin-top: 77rem;
+    }
+
+    .li {
+        border-radius: 25px;
+    }
+
+    .container {
+        border-radius: 25px;
+    }
+
+    header {
+        border-radius: 25px;
+    }
+
+
+    ul li {
+        font-size: 1.2rem;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    .koll {
+        top: 65rem;
+    }
+
+    video {
+        height: 200px;
+        width: auto;
+        margin: 0.5rem 0;
+    }
+
+    .picphoto img,
+    .picphotoai img {
+        height: 200px;
+        width: 355.55px;
+        margin: 0.5rem 0;
+    }
+
+    .contentafter {
+        top: 78rem;
+    }
+
+    .photoshop {
+        top: 140rem;
+    }
+
+    .illistretor {
+        top: 202rem;
+    }
+
+    .head {
+        font-size: 0.7rem;
+    }
+
+    .head:hover{
+        cursor: context-menu;
+    }
+
+    .text {
+        font-size: 1.2rem;
+    }
+
+    .titlehtml {
+        top: 265rem;
+    }
+
+    .programming {
+        top: 285rem;
+    }
+
+    .code {
+        width: 355.55px;
+    }
+
+    .css img,
+    .sortjs {
+        width: 355.55px;
+    }
+
+    .sorthtml {
+        width: 100px;
+        height: auto;
+    }
+
+    #programming {
+        display: flex;
+        justify-content: center;
+    }
+
+    .titlehtml {
+        display: flex;
+        justify-content: center;
+    }
+
+    .web {
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .logohtml {
+        margin-bottom: 2rem;
+    }
+
+    .titlehtml {
+        font-size: 1.2rem;
+    }
+
+    #css,
+    #js,
+    #html {
+        font-size: 1.5rem;
+    }
+
+    #sortjs2 {
+        top: 27rem;
+    }
+
+    .code2 {
+        font-size: 1.5rem;
+    }
+
+    .tagscolor {
+        font-size: 5rem;
+    }
+
+    .programming {
+        top: 273rem;
+    }
+
+    .text {
+        font-size: 10rem;
+    }
+
+    #alliance,
+    .kollkalam,
+    .mawaqe3,
+    .geraandprog {
+        font-size: 2.3rem;
+    }
+
+    .cats,
+    .dogs {
+        font-size: 0.7rem;
+        width: 80px;
+        height: 30px;
+    }
+
+    footer {
+        top: 375rem;
+        height: 13rem;
+    }
+
+    footer::after {
+        clip-path: circle(50% at bottom);
+    }
+
+}
+
+@media (max-width:435px) {
+    .kollshoglgera {
+        height: 297rem;
+        margin-top: 75rem;
+    }
+
+    ul li {
+        margin-bottom: 25px;
+    }
+
+    .li.active {
+        left: -5rem;
+        border-radius: 25px;
+    }
+
+    .text {
+        right: 10px;
+    }
+
+    .photoshop {
+        top: 140rem;
+    }
+
+    .illistretor {
+        top: 203rem;
+    }
+
+    .titlehtml {
+        top: 265rem;
+    }
+
+    .programming {
+        top: 275rem;
+    }
+
+    .code {
+        width: 355.55px;
+    }
+
+    .head {
+        font-size: 0.7rem;
+    }
+
+    .fasla {
+        font-size: 3rem;
+    }
+
+    .tagcss1,
+    .tagcss2,
+    .taghtml3 {
+        font-size: 2.5rem;
+    }
+
+    .lgoshtmlcss #sorthtml2 {
+        width: auto;
+        height: 80px;
+    }
+
+    .lgoshtmlcss #sortcss {
+        height: 80px;
+        width: auto;
+        margin: 0 5px;
+    }
+
+}
+
+@media (max-width:403px) {
+
+    .li.active {
+        left: -4rem;
+        border-radius: 25px;
+    }
+
+    #bars {
+        border-radius: 15px 15px 0 0;
+    }
+
+    div .brand {
+        font-size: 2rem;
+        right: 1px;
+    }
+
+    #kalam {
+        font-size: 2rem;
+    }
+
+    .head {
+        font-size: 0.7rem;
+    }
+
+    .text {
+        right: 10px;
+    }
+
+    /*  */
+}
+
+@media (max-width:369px) {
+    .kollshoglgera {
+        height: 297rem;
+    }
+
+    .li.active {
+        left: -3.5rem;
+    }
+
+    video {
+        height: 150px;
+        width: auto;
+        margin: 0.5rem 0;
+    }
+
+    /*  */
+    .titlehtml {
+        top: 265rem;
+        width: 20rem;
+        font-size: 1.2rem;
+    }
+
+    .programming {
+        top: 275rem;
+        width: 20rem;
+    }
+
+    .code {
+        width: 266.66px;
+    }
+
+    .web {
+        width: 20rem;
+    }
+
+    .titlehtml {
+        top: 225rem;
+    }
+
+    .programming {
+        top: 232rem;
+    }
+
+    /*  */
+    .picphoto img,
+    .picphotoai img {
+        height: 150px;
+        width: 266.66px;
+        margin: 0.5rem 0;
+    }
+
+    .photoshop {
+        top: 127rem;
+    }
+
+    .illistretor {
+        top: 176rem;
+    }
+
+    /*  */
+
+    .css img,
+    .sortjs {
+        width: 266.66px;
+        height: auto;
+    }
+
+    .javascript {
+        display: flex;
+        justify-content: center;
+    }
+
+    #screenjavascript {
+        display: flex;
+        justify-content: center;
+    }
+
+    #css,
+    #js,
+    #html,
+    .code2 {
+        font-size: 1rem;
+    }
+
+    #sortjs2 {
+        top: 22.5rem;
+    }
+
+    footer {
+        top: 320rem;
+        height: 6rem;
+    }
+
+    footer::after {
+        clip-path: circle(50% at bottom);
+    }
+
+    footer div h1 {
+        font-size: 1.5rem;
+    }
+
+    footer div h3 {
+        font-size: 1rem;
+    }
+
+    .sosial a {
+        font-size: 1rem;
+        margin-left: 0.5rem;
+    }
+
+}
+
+@media (max-width:372px) {
+
+    .kollshoglgera {
+        height: 299rem;
+        width: 98%;
+    }
+
+    .koll {
+        font-size: 1.5rem;
+    }
+
+    #kalam {
+        font-size: 1.5rem;
+    }
+
+    .head {
+        font-size: 0.5rem;
+    }
+
+    .text {
+        right: 10px;
+    }
+
+    .titlehtml {
+        font-size: 1.2rem;
+        width: 20rem;
+    }
+
+    #programming {
+        width: 10rem;
+    }
+
+    .web {
+        width: 20rem;
+    }
+
+    footer {
+        height: 11rem;
+    }
+
+    footer::after {
+        clip-path: circle(50% at bottom);
+    }
+
+    footer div h1 {
+        font-size: 1.3rem;
+    }
+
+    footer div h3 {
+        font-size: 1rem;
+    }
+
+    .sosial a {
+        font-size: 1rem;
+        margin-left: 0.5rem;
+    }
+
+}
+
+@media (max-width:322px) {
+
+    .kollshoglgera {
+        height: 299rem;
+        width: 98%;
+    }
+
+    ul li {
+        font-size: 15px;
+    }
+
+    div .brand {
+        right: 2px;
+    }
+
+    .text {
+        right: 10px;
+    }
+
+    #programming {
+        width: 10rem;
+    }
+
+    .titlehtml {
+        font-size: 1.2rem;
+        width: 20rem;
+    }
+
+    #programming {
+        width: 10rem;
+    }
+
+    .web {
+        width: 20rem;
+    }
+
+    /*  */
+    .titlehtml {
+        font-size: 1.2rem;
+        width: 20rem;
+    }
+
+    #programming {
+        width: 10rem;
+    }
+
+    .web {
+        width: 20rem;
+    }
+
+    .lgoshtmlcss #sorthtml2 {
+        width: auto;
+        height: 50px;
+    }
+
+    .lgoshtmlcss #sortcss {
+        height: 50px;
+        width: auto;
+    }
+
+    .fasla,
+    .tagcss1,
+    .tagcss2,
+    .taghtml3 {
+        font-size: 2rem;
+    }
+
+    .tagcss1 {
+        right: 1.5rem;
+    }
+
+    .tagcss2 {
+        right: -1.5rem;
+    }
+
+    #tagshtml {
+        margin: 0;
+    }
+
+    #tagscss {
+        display: flex;
+        justify-content: center;
+    }
+
+    .lgoshtmlcss {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 100%;
+    }
+
+    #sortcss {
+        margin: 0;
+    }
+
+    #sortjs {
+        height: 7rem;
+        width: 7rem;
+    }
+
+    footer {
+        top: 315rem;
+    }
+
+    footer::after {
+        clip-path: circle(50% at bottom);
+    }
+}
+
+@media (max-width:343px) {
+    .kollshoglgera {
+        height: 245rem;
+        width: 95%;
+    }
+
+    .li.active {
+        width: 75%;
+        left: -2rem;
+    }
+
+    .fasla,
+    .tagcss1,
+    .tagcss2,
+    .taghtml3 {
+        font-size: 2rem;
+    }
+
+    .lgoshtmlcss #sorthtml2 {
+        width: auto;
+        height: 50px;
+    }
+
+    .lgoshtmlcss #sortcss {
+        height: 50px;
+        width: auto;
+    }
+
+    .tagcss1 {
+        right: 1.5rem;
+    }
+
+    .tagcss2 {
+        right: -1.5rem;
+    }
+
+    #tagshtml {
+        margin: 0;
+    }
+
+    #tagscss {
+        display: flex;
+        justify-content: center;
+    }
+
+    .lgoshtmlcss {
+        width: 82%;
+        display: flex;
+        justify-content: center;
+        right: 0;
+    }
+
+    #sortcss {
+        margin: 0;
+    }
+
+    .lgoshtmlcss {
+        position: relative;
+        right: 2rem;
+    }
+
+    #alliance,
+    .kollkalam,
+    .mawaqe3,
+    .geraandprog {
+        font-size: 2rem;
+    }
+
+
+}
+
+@media (max-width:305px) {
+
+    .kollshoglgera {
+        height: 245rem;
+    }
+
+    .li.active {
+        left: -3rem;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    header {
+        border-radius: 30px;
+    }
+
+    .container {
+        border-radius: 40px
+    }
+
+    div .brand {
+        font-size: 1.5rem;
+        right: 1px;
+    }
+
+    .photoshop {
+        top: 126.5rem;
+    }
+
+    .illistretor {
+        top: 175rem;
+    }
+
+    .text {
+        right: 10px;
+    }
+
+    .container {
+        align-items: center;
+    }
+
+    .logohtml {
+        font-size: 7rem;
+    }
+
+    .sorthtml {
+        width: 80px;
+        height: auto;
+    }
+
+    .web {
+        font-size: 1.3rem;
+        width: 220px;
+    }
+
+    .titlehtml {
+        width: 250px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .programming {
+        width: 250px;
+    }
+
+    #programming {
+        right: 3.2rem;
+    }
+
+    #alliance,
+    .kollkalam,
+    .mawaqe3,
+    .geraandprog {
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width:290px) {
+
+    .kollshoglgera {
+        height: 195rem;
+    }
+
+    ul li {
+        margin-right: 1rem;
+    }
+
+    .li.active {
+        width: 75%;
+        left: -2rem;
+    }
+
+    #kalam {
+        font-size: 20px;
+    }
+
+    .cats,
+    .dogs {
+        font-size: 12px;
+        height: 30px;
+        width: 75px;
+    }
+
+    .text {
+        right: 10px;
+    }
+
+    video {
+        height: 120px;
+        width: auto;
+        margin: 0.5rem 0;
+    }
+
+    .picphoto img,
+    .picphotoai img {
+        height: 120px;
+        width: 213.33px;
+        margin: 0.5rem 0;
+    }
+
+    .picphoto,
+    .picphotoai {
+        margin: 0;
+    }
+
+    .photoshop {
+        top: 115rem;
+    }
+
+    .illistretor {
+        top: 155rem;
+    }
+
+    .sortpho,
+    .sortaf {
+        width: 30px;
+        height: 30px;
+    }
+
+    .ph,
+    .af {
+        font-size: 0.8rem;
+    }
+
+    /*  */
+    .titlehtml {
+        top: 200rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .programming {
+        top: 206rem;
+    }
+
+    #programming {
+        font-size: 2rem;
+    }
+
+    .code {
+        width: 213.33px;
+    }
+
+    /*  */
+
+    .css img,
+    .sortjs {
+        width: 213.33px;
+        height: auto;
+    }
+
+    #css,
+    #js,
+    #html,
+    .code2 {
+        font-size: 1rem;
+    }
+
+    #sortjs2 {
+        top: 22.5rem;
+    }
+
+    .mashro4 {
+        width: 80px;
+        height: 80px;
+        position: relative;
+        top: -3rem;
+    }
+
+    #javascript {
+        top: 3rem;
+    }
+
+    #sortjs2 {
+        top: 14.5rem;
+    }
+
+    .barmga {
+        top: -6rem;
+    }
+
+    #sortjs {
+        width: 150px;
+    }
+
+    footer {
+        top: 275rem;
+    }
+
+    footer::after {
+        clip-path: circle(50% at bottom);
+    }
+
+}
+
+@media (max-width:276px) {
+
+    .kollshoglgera {
+        height: 195rem;
+    }
+
+    .koll {
+        font-size: 20px;
+    }
+
+    .proaf img,
+    .prophotoshop img,
+    .proillistretor img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .vediosaf {
+        top: 2rem;
+    }
+
+    .picphoto {
+        top: 2rem;
+    }
+
+    .picphotoai {
+        top: 2rem;
+    }
+
+    .illistretor {
+        top: 155rem;
+    }
+
+    .photoshop {
+        top: 114rem;
+    }
+}
+
+@media (max-width:256px) {
+
+    .li.active {
+        width: 100%;
+        left: 0;
+    }
+
+}
+
+@media (max-width:243px) {
+    .kollshoglgera {
+        height: 185rem;
+    }
+
+    .head {
+        font-size: 6px;
+    }
+
+    .proaf img,
+    .prophotoshop img,
+    .proillistretor img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .programming {
+        width: 200px;
+        top: 200rem;
+    }
+
+    #programming {
+        font-size: 30px;
+    }
+
+    #html {
+        width: 190px;
+        right: 0;
+    }
+
+    .titlehtml {
+        width: 220px;
+        top: 193rem;
+        height: 50px;
+    }
+
+    .photoshop {
+        top: 111rem;
+    }
+
+    .illistretor {
+        top: 147rem;
+    }
+
+    footer {
+        top: 270rem;
+    }
+
+    footer::after {
+        clip-path: circle(50% at bottom);
+    }
+
+}
+
+@media (max-width:230px) {
+    video {
+        height: 100px;
+        width: auto;
+        margin: 0.5rem 0;
+    }
+
+    .picphoto img,
+    .picphotoai img {
+        height: 100px;
+        width: 177.11px;
+        margin: 0.5rem 0;
+    }
+
+    .photoshop {
+        top: 108rem;
+    }
+
+    .illistretor {
+        top: 143rem;
+    }
+
+    .vediosaf {
+        top: 15px;
+    }
+
+    .picphoto {
+        top: 15px;
+    }
+
+    .picphotoai {
+        top: 15px;
+    }
+
+    .logohtml {
+        font-size: 6rem;
+    }
+
+    .titlehtml {
+        top: 175rem;
+    }
+
+    .programming {
+        top: 182rem;
+    }
+
+    .code {
+        width: 177.11px;
+    }
+}
